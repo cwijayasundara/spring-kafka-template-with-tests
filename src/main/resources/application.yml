@@ -16,6 +16,6 @@ spring:
     consumer:
       auto-offset-reset: earliest
       group-id: test-kafka-cluster
-    bootstrap-servers: 127.0.0.1:29092
+    bootstrap-servers: 127.0.0.1:9095
 test:
   topic: test_topic
